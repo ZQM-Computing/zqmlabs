@@ -1,16 +1,14 @@
 version: 2
 updates:
-  - package-ecosystem: "npm"
+  - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
-      interval: "daily"
-    open-pull-requests-limit: 10
-    commit-message:
-      prefix: "deps(frontend)"
-  - package-ecosystem: "pip"
-    directory: "/backend"
+      interval: "weekly"
+  - package-ecosystem: "nuget"
+    directory: "/"
     schedule:
-      interval: "daily"
-    open-pull-requests-limit: 10
-    commit-message:
-      prefix: "deps(backend)"
+      interval: "weekly"
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
