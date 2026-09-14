@@ -6,12 +6,12 @@
 
 | Domain | Repo | Branch | Purpose |
 |--------|------|--------|---------|
-| zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `master` | React SPA — ZQM landing page |
-| www.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `master` | Same as zqmlabs.com (canonical) |
-| data.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `master` | Static data pages (11 categories) |
-| docs.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `master` | Documentation |
-| software.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `master` | Software catalog |
-| leaders.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `master` | Leadership page |
+| zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `main` | React SPA — ZQM landing page |
+| www.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `main` | Same as zqmlabs.com (canonical) |
+| data.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `main` | Static data pages (11 categories) |
+| docs.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `main` | Documentation |
+| software.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `main` | Software catalog |
+| leaders.zqmlabs.com | `ZQM-Computing/zqmlabs-portal` | `main` | Leadership page |
 
 ## Subdomains
 
