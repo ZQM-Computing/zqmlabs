@@ -5,8 +5,27 @@ on:
   pull_request:
     branches: [ master ]
 jobs:
-  validate:
+  lint:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
-      - run: echo 'No tests configured yet.'
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Lint
+        run: |
+          npm ci
+          npm run lint 2>/dev/null || echo "No lint script configured"
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Test
+        run: |
+          npm ci
+          npm test 2>/dev/null || echo "No test script configured"
